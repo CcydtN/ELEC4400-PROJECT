@@ -5,4 +5,5 @@ Design a 16-bit carry-skip (also known as carry-bypass) adder using CMOS circuit
 
 Demonstrate full functionality, and characterize performance with post-layout simulation.
 
-To find more detail, check out the report PDF
+---
+The report PDF contain the detail of the project
