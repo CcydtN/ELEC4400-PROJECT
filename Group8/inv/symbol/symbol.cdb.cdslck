@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      mcipaa
+HostName                       eex056.ee.ust.hk
+ProcessIdentifier              3710
+ProcessCreationTime_UTC        1606743756
+ProcessCreationTime_Readable   Mon Nov 30 21:42:36 2020 HKT
+AppIdentifier                  /usr/eelocal/cadence/ic5141hf/tools/dfII/bin/icfb.exe
+OSType                         lnx86
+ReasonForPlacingEditLock       XXsave write lock
+FilePathUsedToEditLock         /afs/ee.ust.hk/staff/ee/mcipaa/301cadence/Group8/inv/symbol/symbol.cdb
+TimeEditLocked                 Mon Nov 30 22:49:08 2020 HKT

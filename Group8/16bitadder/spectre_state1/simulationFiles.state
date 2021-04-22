@@ -1,0 +1,9 @@
+stimulusFile nil
+EVcdFile ""
+VcdInfoFile ""
+definitionFiles ("testALL0.input")
+hlcheck "off"
+EVcdInfoFile ""
+includePath ""
+VectorFile ("")
+VcdFile ""

@@ -1,0 +1,47 @@
+#
+# OPTION COMMAND FILE created by Cadence Extraction QRC Version 9.1.4-p003
+#
+capacitance \
+	 -decoupling_factor 1.0 \
+	 -ground_net "gnd!"
+extract \
+	 -selection "all" \
+	 -type "rc_decoupled"
+extraction_setup \
+	 -array_vias_spacing auto \
+	 -max_fracture_length infinite \
+	 -max_fracture_length_unit "MICRONS" \
+	 -max_via_array_size \
+		"auto" \
+	 -net_name_space "LAYOUT"
+filter_res \
+	 -min_res 0.001
+input_db -type assura \
+	 -design_cell_name "XOR2 layout Project" \
+	 -directory_name "/afs/ee.ust.hk/staff/ee/mcipaa/301cadence/lvs" \
+	 -format "DFII" \
+	 -library_definitions_file "/afs/ee.ust.hk/staff/ee/mcipaa/301cadence/cds.lib" \
+	 -run_name "XOR2"
+output_db -type extracted_view \
+	 -cap_component "pcapacitor" \
+	 -cap_property_name "c" \
+	 -enable_cellview_check false \
+	 -include_cap_model "false" \
+	 -include_parasitic_cap_model "true" \
+	 -include_parasitic_res_model "comment" \
+	 -include_parasitic_res_width false \
+	 -include_parasitic_res_width_drawn false \
+	 -include_res_model "false" \
+	 -res_component "presistor" \
+	 -res_property_name "r" \
+	 -view_name "av_extracted"
+output_setup \
+	 -directory_name "/afs/ee.ust.hk/staff/ee/mcipaa/301cadence/lvs" \
+	 -temporary_directory_name "XOR2"
+process_technology \
+	 -technology_library_file "/afs/ee.ust.hk/staff/ee/mcipaa/301cadence/assura_tech.lib" \
+	 -technology_name "assura_gpdk_tech" \
+	 -temperature \
+		25.0
+
+

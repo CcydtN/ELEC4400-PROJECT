@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      khhauaa
+HostName                       eex061.ee.ust.hk
+ProcessIdentifier              36388
+ProcessCreationTime_UTC        1606638560
+ProcessCreationTime_Readable   Sun Nov 29 16:29:20 2020 HKT
+AppIdentifier                  /usr/eelocal/cadence/ic5141hf/tools/dfII/bin/icfb.exe
+OSType                         lnx86
+ReasonForPlacingEditLock       XXsave write lock
+FilePathUsedToEditLock         /afs/ee.ust.hk/staff/ee/khhauaa/301cadence/Group8/2inputNOR/layout/layout.cdb
+TimeEditLocked                 Mon Nov 30 01:47:29 2020 HKT

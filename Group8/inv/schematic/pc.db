@@ -1,0 +1,18 @@
+#
+gpdk nmos symbol
+MN0
+#
+gpdk pmos symbol
+MP1
+#ISCELL
+basic opin symbol
+PIN1
+#ISCELL
+basic ipin symbol
+PIN0
+#ISCELL
+analogLib gnd symbol
+I1
+#ISCELL
+analogLib vdd symbol
+I0

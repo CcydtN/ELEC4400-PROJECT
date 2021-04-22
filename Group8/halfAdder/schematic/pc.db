@@ -1,0 +1,14 @@
+#
+Group8 NAND2 symbol
+I0
+#
+Group8 XOR2 symbol
+I1
+#ISCELL
+basic opin symbol
+PIN1
+PIN0
+#ISCELL
+basic ipin symbol
+PIN3
+PIN2
